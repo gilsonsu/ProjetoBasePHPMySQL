@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+/* JANELA MODAL*/
+#modal-dialog {
+  	display: none;
+	background: #fff;
+	/*POSITION*/
+	position: fixed;
+	z-index: 99999;
+	left: 50%;
+	top: 50%;
+	width:900px;
+	height:400px;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	/*SHADOW*/
+	-webkit-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.75);
+	/*BORDER*/
+	border: 5px solid #369;
+}
+
+#modal-dialog-button{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}

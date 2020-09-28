@@ -1,0 +1,96 @@
+/* */
+/* */
+/* DATA GRID */
+
+.datagrid {
+  border-spacing: 0;
+  border-collapse: collapse;
+  /*font-family:Verdana, Arial, Helvetica, sans-serif;*/
+  /*font-family: "Lucida Console", Monaco, monospace;*/
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 14px;
+}
+/* */
+/* */
+/* TH */
+.datagrid th {
+  background: #01a9db;
+  /* FONT */
+  color: #fff;
+  /* FRAME */
+  padding: 15px 10px;
+  text-align: left;
+}
+
+/* */
+/* */
+/* TR */
+.datagrid tr {
+  color: #000;
+  height: 15px;
+  padding-left: 5px;
+  background: rgb(222, 222, 222);
+}
+
+.datagrid tr:nth-child(odd) {
+  background: #f4f4f4;
+}
+
+.datagrid tr:nth-child(even) {
+  background: #fff;
+}
+
+.datagrid tr a {
+  color: #000;
+  text-decoration: none;
+  padding: 1px 2px 1px 3px;
+}
+
+.datagrid tr a:hover {
+  color: #666;
+}
+
+/* */
+/* */
+/* TD */
+.datagrid tbody tr td {
+  padding: 15px 10px;
+  font-weight: normal;
+}
+
+.datagrid tr td table tr td {
+  border: 0px;
+  padding: 0px;
+}
+
+.datagrid-browser{
+  width:100%;
+  margin-top: 2px;
+  background: #f4f4f4;
+  padding: 10px;
+}
+.datagrid-browser-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+.datagrid-browser-button{
+	text-align: right;
+}
+.datagrid-browser-button-left {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12;
+  color: #000;
+  padding: 3px;
+  margin: 2px;
+}
+
+.datagrid-browser-button-right {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12;
+  color: #000;
+  padding: 3px;
+  margin: 2px;
+}

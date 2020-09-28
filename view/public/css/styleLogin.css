@@ -1,0 +1,93 @@
+/* DEFAULT
+___________________________________________*/
+
+html {
+	height:100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	/*FONT*/
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+	color:#369;
+	/*BACKGROUND*/
+	background: #bc59f2; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #bc59f2 0%, #3585e8 100%); 
+	background: -webkit-linear-gradient(-45deg,  #bc59f2 0%,#3585e8 100%);
+	background: linear-gradient(135deg,  #bc59f2 0%,#3585e8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc59f2', endColorstr='#3585e8',GradientType=1 );
+ }
+
+h1 {
+	font-size:26px;
+	margin:0px;
+	padding:0px;
+	color:#fff;
+	border-bottom:1px dotted #fff; 
+}
+
+hr{ color:#369; margin:10px 10px 10px 0px;}
+
+
+/* LAYOUT
+___________________________________________*/
+
+#app-logo{
+	position: relative;
+	margin: 0 auto;
+	width: 150px;
+}
+#app-name{
+	font-size: 32px;
+	text-align: center;
+	color:#fff;
+	margin:25px;
+}
+#app-access-msg{
+	font-size: 18px;
+	text-align: center;
+	color:#fff;
+}
+#app-access-form{
+	border-top: 1px dotted #fff;
+	border-bottom: 1px dotted #fff;
+	text-align: center;
+	margin:25px 0;
+}
+#content{
+	width:800px;
+    position:relative;
+    margin: 0 auto;
+    top:30%;
+	
+}
+
+/* IPUT
+___________________________________________*/
+
+input[type=text] , input[type=password]{
+	width: 300px;
+	padding: 10px 10px;
+	margin: 5px 0;
+	display: inline;
+	border: 1px solid #A4A4A4;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size:16px;
+}
+input[type=submit]{
+	width: 150px;
+	padding: 10px 10px;
+	margin: 5px 0;
+	display: inline;
+	background:rgb(6, 177, 63);
+	border: 1px solid rgb(1, 180, 212);
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size:16px;
+}
+input[type=submit]:hover{
+	background:rgb(1, 180, 212);
+}
